@@ -189,15 +189,15 @@ namespace Zaif
 
     public class CurrencyPair
     {
-        public static string btc_jpy = "btc_jpy";
-        public static string bch_jpy = "bch_jpy";   //ビットキャッシュ
-        public static string eth_jpy = "eth_btc";   //イーサリアム
+        public const string btc_jpy = "btc_jpy";
+        public const string bch_jpy = "bch_jpy";   //ビットキャッシュ
+        public const string eth_jpy = "eth_btc";   //イーサリアム
     }
 
     public class Trade
     {
-        public static string sale = "ask";
-        public static string buy = "bid";
+        public const string sale = "ask";
+        public const string buy = "bid";
     }
 
     [DataContract]
